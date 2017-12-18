@@ -1,0 +1,24 @@
+[14-Dec-2017 16:26:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php:10
+Stack trace:
+#0 /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php(10): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/joelwalc/phonejar.joelwalczak.com/phoneJar/authenticate.php(2): require('/home/joelwalc/...')
+#2 {main}
+  thrown in /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php on line 10
+[14-Dec-2017 16:30:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'joelwalc_phoneJarAdmin'@'s970.tmd.cloud' (using password: YES)' in /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php:10
+Stack trace:
+#0 /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php(10): PDO->__construct('mysql:host=s970...', 'joelwalc_phoneJ...', 'Dunwoody2017')
+#1 /home/joelwalc/phonejar.joelwalczak.com/phoneJar/authenticate.php(2): require('/home/joelwalc/...')
+#2 {main}
+  thrown in /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php on line 10
+[14-Dec-2017 16:30:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'joelwalc_phoneJarAdmin'@'s970.tmd.cloud' (using password: YES)' in /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php:10
+Stack trace:
+#0 /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php(10): PDO->__construct('mysql:host=s970...', 'joelwalc_phoneJ...', 'Dunwoody2017')
+#1 /home/joelwalc/phonejar.joelwalczak.com/phoneJar/authenticate.php(2): require('/home/joelwalc/...')
+#2 {main}
+  thrown in /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php on line 10
+[14-Dec-2017 16:31:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'joelwalc_phoneJarAdmin'@'s970.tmd.cloud' (using password: YES)' in /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php:10
+Stack trace:
+#0 /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php(10): PDO->__construct('mysql:host=s970...', 'joelwalc_phoneJ...', 'Dunwoody2017')
+#1 /home/joelwalc/phonejar.joelwalczak.com/phoneJar/authenticate.php(2): require('/home/joelwalc/...')
+#2 {main}
+  thrown in /home/joelwalc/phonejar.joelwalczak.com/phoneJar/database_config.php on line 10
